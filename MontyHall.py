@@ -13,17 +13,7 @@ def remove_duplicates(values):
             seen.add(value)
     return output
 
-possibleDoorChoicesList = ['contestantPicks', 'montyOpens', 'remainsClosed']
-
-iterable = possibleDoorChoicesList
-
-possibleDoorPermutationsList = []
-
-for doorPermutation in permutations(iterable, r=None):
-    possibleDoorPermutationsList.append(doorPermutation)
-
 possiblePrizesList = ['car', 'goat', 'goat']
-
 
 iterable = possiblePrizesList
 
